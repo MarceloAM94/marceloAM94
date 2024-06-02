@@ -1,0 +1,128 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #0033A0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    height: 60px;
+}
+
+.nav-brand {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: auto;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: stretch;
+    height: 100%;
+}
+
+.nav-item {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0 20px; /* Relleno horizontal */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.nav-item a:hover {
+    background-color: #011746;
+}
+
+/* Se eliminan los estilos adicionales para .contact-link */
+.contact-link {
+    border: none; /* Sin borde */
+}
+
+.contact-link:hover {
+    background-color: #011746;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Estilos para la sección Nosotros */
+  .nosotros {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+  }
+  
+  .nosotros h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .historia-video {
+    display: flex; /* Utilizamos flexbox */
+    justify-content: space-between; /* Distribuye los elementos horizontalmente */
+  }
+  
+  /* Estilos para los títulos */
+  .historia h3,
+  .video h3 {
+    color: #000000;
+    font-size: 24px;
+    margin: 10px;
+  }
+  
+  /* Estilos para los párrafos */
+.nosotros p {
+    line-height: 1.6;
+    margin: 20px;
+}
+  
+.card {
+    background-color: #b3e5fc; /* Color celeste */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-right: 20px; /* Añadir margen derecho para separación */
+    margin-bottom: 20px; /* Añadir margen inferior para separación vertical */
+    list-style-type: none; /* Eliminar el estilo de lista por defecto */
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: row; /* Colocar las tarjetas en fila */
+  justify-content: space-between; /* Distribuir las tarjetas uniformemente */
+  gap: 20px; /* Añadir espacio entre las tarjetas */
+}
+
+.video {
+    max-width: 100%; 
+    margin-top: 14%;
+}
+  
+.responsive-img {
+    width: 100%;
+    height: auto;
+    max-width: 600px; 
+    display: block;
+    margin: 20px auto; 
+    border-radius: 20px;
+}
